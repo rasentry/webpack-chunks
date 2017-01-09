@@ -1,0 +1,15 @@
+{
+  "name": "webpack-snippet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --profile --json > webpack.stats.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^2.2.0-rc.3"
+  }
+}
