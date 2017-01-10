@@ -11,7 +11,8 @@ module.exports = {
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
             name: 'main',
-            minChunks: 2
+            minChunks: 2,
+            children: true
         })
     ]
 };
