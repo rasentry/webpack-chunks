@@ -1,0 +1,754 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "2.2.0-rc.7",
+  "hash": "b173d8707d908bf8fe23",
+  "time": 99,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "0.js",
+      "size": 859,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "1.js",
+      "size": 568,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "2.js",
+      "size": 836,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 6167,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": true
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        3
+      ],
+      "assets": [
+        "main.js"
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 284,
+      "names": [],
+      "files": [
+        "0.js"
+      ],
+      "hash": "5064c1cea45eeb0ee4e6",
+      "parents": [
+        3
+      ],
+      "modules": [
+        {
+          "id": 2,
+          "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+          "name": "./src/ClassA.js",
+          "index": 2,
+          "index2": 1,
+          "size": 177,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "issuerId": 0,
+          "issuerName": "./src/Main.js",
+          "profile": {
+            "factory": 2,
+            "building": 12
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+              "module": "./src/Main.js",
+              "moduleName": "./src/Main.js",
+              "type": "cjs require",
+              "userRequest": "./ClassA",
+              "loc": "5:24-43"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "ClassA"
+          ],
+          "depth": 2,
+          "source": "import {ReusableComponent} from './ReusableComponent';\r\n\r\nexport class ClassA {\r\n    constructor() {\r\n        console.log(\"Class A\");\r\n        new ReusableComponent();\r\n    }\r\n}"
+        },
+        {
+          "id": 4,
+          "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ReusableComponent.js",
+          "name": "./src/ReusableComponent.js",
+          "index": 3,
+          "index2": 0,
+          "size": 107,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            2
+          ],
+          "assets": [],
+          "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+          "issuerId": 2,
+          "issuerName": "./src/ClassA.js",
+          "profile": {
+            "factory": 2,
+            "building": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+              "module": "./src/ClassA.js",
+              "moduleName": "./src/ClassA.js",
+              "type": "harmony import",
+              "userRequest": "./ReusableComponent",
+              "loc": "1:0-54"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassC.js",
+              "module": "./src/ClassC.js",
+              "moduleName": "./src/ClassC.js",
+              "type": "harmony import",
+              "userRequest": "./ReusableComponent",
+              "loc": "1:0-54"
+            }
+          ],
+          "usedExports": [
+            "ReusableComponent"
+          ],
+          "providedExports": [
+            "ReusableComponent"
+          ],
+          "depth": 3,
+          "source": "export class ReusableComponent {\r\n    constructor() {\r\n        console.log(\"Reusable component\");\r\n    }\r\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "moduleName": "./src/Main.js",
+          "loc": "4:8-7:10",
+          "name": null,
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 201,
+      "names": [],
+      "files": [
+        "1.js"
+      ],
+      "hash": "404f8120f6c45fb9bcc5",
+      "parents": [
+        3
+      ],
+      "modules": [
+        {
+          "id": 3,
+          "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+          "name": "./src/ClassB.js",
+          "index": 4,
+          "index2": 3,
+          "size": 201,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "issuerId": 0,
+          "issuerName": "./src/Main.js",
+          "profile": {
+            "factory": 3,
+            "building": 5
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+              "module": "./src/Main.js",
+              "moduleName": "./src/Main.js",
+              "type": "cjs require",
+              "userRequest": "./ClassB",
+              "loc": "9:24-43"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "ClassB"
+          ],
+          "depth": 2,
+          "source": "export class ClassB {\r\n    constructor() {\r\n        console.log('ClassB');\r\n        require.ensure([], ()=>{\r\n            const Cls = require('./ClassC');\r\n            new Cls();\r\n        });\r\n    }\r\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "moduleName": "./src/Main.js",
+          "loc": "8:8-11:10",
+          "name": null,
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "extraAsync": false,
+      "size": 283,
+      "names": [],
+      "files": [
+        "2.js"
+      ],
+      "hash": "2dc58230cc14373c2cb0",
+      "parents": [
+        1
+      ],
+      "modules": [
+        {
+          "id": 4,
+          "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ReusableComponent.js",
+          "name": "./src/ReusableComponent.js",
+          "index": 3,
+          "index2": 0,
+          "size": 107,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            2
+          ],
+          "assets": [],
+          "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+          "issuerId": 2,
+          "issuerName": "./src/ClassA.js",
+          "profile": {
+            "factory": 2,
+            "building": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+              "module": "./src/ClassA.js",
+              "moduleName": "./src/ClassA.js",
+              "type": "harmony import",
+              "userRequest": "./ReusableComponent",
+              "loc": "1:0-54"
+            },
+            {
+              "moduleId": 5,
+              "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassC.js",
+              "module": "./src/ClassC.js",
+              "moduleName": "./src/ClassC.js",
+              "type": "harmony import",
+              "userRequest": "./ReusableComponent",
+              "loc": "1:0-54"
+            }
+          ],
+          "usedExports": [
+            "ReusableComponent"
+          ],
+          "providedExports": [
+            "ReusableComponent"
+          ],
+          "depth": 3,
+          "source": "export class ReusableComponent {\r\n    constructor() {\r\n        console.log(\"Reusable component\");\r\n    }\r\n}"
+        },
+        {
+          "id": 5,
+          "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassC.js",
+          "name": "./src/ClassC.js",
+          "index": 5,
+          "index2": 2,
+          "size": 176,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+          "issuerId": 3,
+          "issuerName": "./src/ClassB.js",
+          "profile": {
+            "factory": 7,
+            "building": 4,
+            "dependencies": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 3,
+              "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+              "module": "./src/ClassB.js",
+              "moduleName": "./src/ClassB.js",
+              "type": "cjs require",
+              "userRequest": "./ClassC",
+              "loc": "5:24-43"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "ClassC"
+          ],
+          "depth": 3,
+          "source": "import {ReusableComponent} from './ReusableComponent';\r\n\r\nexport class ClassC {\r\n    constructor() {\r\n        console.log(\"ClassC\");\r\n        new ReusableComponent();\r\n    }\r\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 3,
+          "module": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+          "moduleName": "./src/ClassB.js",
+          "loc": "4:8-7:10",
+          "name": null,
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 356,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "dca5e868b86bd1780b07",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "name": "./src/Main.js",
+          "index": 1,
+          "index2": 4,
+          "size": 328,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "assets": [],
+          "issuer": "multi ./src/Main.js",
+          "issuerId": 1,
+          "issuerName": "multi ./src/Main.js",
+          "profile": {
+            "factory": 20,
+            "building": 17
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "multi ./src/Main.js",
+              "module": "multi ./src/Main.js",
+              "moduleName": "multi ./src/Main.js",
+              "type": "single entry",
+              "userRequest": "./src/Main.js",
+              "loc": "main:100000"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 1,
+          "source": "class Main {\r\n    constructor() {\r\n        console.log(\"Main class\");\r\n        require.ensure([], ()=>{\r\n            const Cls = require('./ClassA');\r\n            new Cls();\r\n        });\r\n        require.ensure([], ()=>{\r\n            const Cls = require('./ClassB');\r\n            new Cls();\r\n        });\r\n    }\r\n}\r\n\r\nnew Main();"
+        },
+        {
+          "id": 1,
+          "identifier": "multi ./src/Main.js",
+          "name": "multi ./src/Main.js",
+          "index": 0,
+          "index2": 5,
+          "size": 28,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "profile": {
+            "factory": 0,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "depth": 0
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 1,
+          "module": "multi ./src/Main.js",
+          "moduleIdentifier": "multi ./src/Main.js",
+          "moduleName": "multi ./src/Main.js",
+          "loc": "",
+          "name": "main",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+      "name": "./src/Main.js",
+      "index": 1,
+      "index2": 4,
+      "size": 328,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "assets": [],
+      "issuer": "multi ./src/Main.js",
+      "issuerId": 1,
+      "issuerName": "multi ./src/Main.js",
+      "profile": {
+        "factory": 20,
+        "building": 17
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "multi ./src/Main.js",
+          "module": "multi ./src/Main.js",
+          "moduleName": "multi ./src/Main.js",
+          "type": "single entry",
+          "userRequest": "./src/Main.js",
+          "loc": "main:100000"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 1,
+      "source": "class Main {\r\n    constructor() {\r\n        console.log(\"Main class\");\r\n        require.ensure([], ()=>{\r\n            const Cls = require('./ClassA');\r\n            new Cls();\r\n        });\r\n        require.ensure([], ()=>{\r\n            const Cls = require('./ClassB');\r\n            new Cls();\r\n        });\r\n    }\r\n}\r\n\r\nnew Main();"
+    },
+    {
+      "id": 1,
+      "identifier": "multi ./src/Main.js",
+      "name": "multi ./src/Main.js",
+      "index": 0,
+      "index2": 5,
+      "size": 28,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "assets": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "profile": {
+        "factory": 0,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "usedExports": true,
+      "providedExports": null,
+      "depth": 0
+    },
+    {
+      "id": 2,
+      "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+      "name": "./src/ClassA.js",
+      "index": 2,
+      "index2": 1,
+      "size": 177,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+      "issuerId": 0,
+      "issuerName": "./src/Main.js",
+      "profile": {
+        "factory": 2,
+        "building": 12
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "module": "./src/Main.js",
+          "moduleName": "./src/Main.js",
+          "type": "cjs require",
+          "userRequest": "./ClassA",
+          "loc": "5:24-43"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "ClassA"
+      ],
+      "depth": 2,
+      "source": "import {ReusableComponent} from './ReusableComponent';\r\n\r\nexport class ClassA {\r\n    constructor() {\r\n        console.log(\"Class A\");\r\n        new ReusableComponent();\r\n    }\r\n}"
+    },
+    {
+      "id": 3,
+      "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+      "name": "./src/ClassB.js",
+      "index": 4,
+      "index2": 3,
+      "size": 201,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+      "issuerId": 0,
+      "issuerName": "./src/Main.js",
+      "profile": {
+        "factory": 3,
+        "building": 5
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\Main.js",
+          "module": "./src/Main.js",
+          "moduleName": "./src/Main.js",
+          "type": "cjs require",
+          "userRequest": "./ClassB",
+          "loc": "9:24-43"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "ClassB"
+      ],
+      "depth": 2,
+      "source": "export class ClassB {\r\n    constructor() {\r\n        console.log('ClassB');\r\n        require.ensure([], ()=>{\r\n            const Cls = require('./ClassC');\r\n            new Cls();\r\n        });\r\n    }\r\n}"
+    },
+    {
+      "id": 4,
+      "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ReusableComponent.js",
+      "name": "./src/ReusableComponent.js",
+      "index": 3,
+      "index2": 0,
+      "size": 107,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        2
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+      "issuerId": 2,
+      "issuerName": "./src/ClassA.js",
+      "profile": {
+        "factory": 2,
+        "building": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassA.js",
+          "module": "./src/ClassA.js",
+          "moduleName": "./src/ClassA.js",
+          "type": "harmony import",
+          "userRequest": "./ReusableComponent",
+          "loc": "1:0-54"
+        },
+        {
+          "moduleId": 5,
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassC.js",
+          "module": "./src/ClassC.js",
+          "moduleName": "./src/ClassC.js",
+          "type": "harmony import",
+          "userRequest": "./ReusableComponent",
+          "loc": "1:0-54"
+        }
+      ],
+      "usedExports": [
+        "ReusableComponent"
+      ],
+      "providedExports": [
+        "ReusableComponent"
+      ],
+      "depth": 3,
+      "source": "export class ReusableComponent {\r\n    constructor() {\r\n        console.log(\"Reusable component\");\r\n    }\r\n}"
+    },
+    {
+      "id": 5,
+      "identifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassC.js",
+      "name": "./src/ClassC.js",
+      "index": 5,
+      "index2": 2,
+      "size": 176,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+      "issuerId": 3,
+      "issuerName": "./src/ClassB.js",
+      "profile": {
+        "factory": 7,
+        "building": 4,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 3,
+          "moduleIdentifier": "C:\\Users\\dima\\Desktop\\webpack-snippet\\src\\ClassB.js",
+          "module": "./src/ClassB.js",
+          "moduleName": "./src/ClassB.js",
+          "type": "cjs require",
+          "userRequest": "./ClassC",
+          "loc": "5:24-43"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "ClassC"
+      ],
+      "depth": 3,
+      "source": "import {ReusableComponent} from './ReusableComponent';\r\n\r\nexport class ClassC {\r\n    constructor() {\r\n        console.log(\"ClassC\");\r\n        new ReusableComponent();\r\n    }\r\n}"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
